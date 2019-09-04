@@ -2,16 +2,24 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 // import PrimeiroComponente from './components/PrimeiroComponent'
 // import {CompA, CompB as ComponentB} from './components/MultiplesComponents'
-import MultElements from './components/MultiplesElements'
-
+//import MultElements from './components/MultiplesElements'
+import Familia from './components/FamiliaSilva'
 
 const elemento = document.getElementById('root')
 ReactDOM.render(
     <div>
-       <MultElements />
-    </div>
-    
+        <Familia/>
+    </div>    
     , elemento)
+
+
+    // const elemento = document.getElementById('root')
+// ReactDOM.render(
+//     <div>
+//        <MultElements />
+//     </div>
+    
+//     , elemento)
 
 // const elemento = document.getElementById('root')
 // ReactDOM.render(
