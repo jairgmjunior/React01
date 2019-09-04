@@ -1,16 +1,26 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import PrimeiroComponente from './components/PrimeiroComponent'
-import {CompA, CompB as ComponentB} from './components/MultiplesComponents'
+// import PrimeiroComponente from './components/PrimeiroComponent'
+// import {CompA, CompB as ComponentB} from './components/MultiplesComponents'
+import MultElements from './components/MultiplesElements'
+
 
 const elemento = document.getElementById('root')
 ReactDOM.render(
     <div>
-        <CompA valor="Componente A" />
-        <ComponentB valor="Componente B" />
+       <MultElements />
     </div>
     
     , elemento)
+
+// const elemento = document.getElementById('root')
+// ReactDOM.render(
+//     <div>
+//         <CompA valor="Componente A" />
+//         <ComponentB valor="Componente B" />
+//     </div>
+    
+//     , elemento)
 
 // const elemento = document.getElementById('root')
 // ReactDOM.render(
