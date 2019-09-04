@@ -5,5 +5,4 @@ export default props => (
         {props.nome}
         <strong> {props.sobrenome}</strong>
     </div>
- 
 )

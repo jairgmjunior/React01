@@ -10,16 +10,25 @@ import Membro from './components/Member'
 const elemento = document.getElementById('root')
 ReactDOM.render(
     <div>
-        <Familia>
-            <Membro nome="José" sobrenome="Antonio"/>
-            <Membro nome="João" sobrenome="Antonio"/>
-        </Familia>
-        <Familia>
-            <Membro nome="Maria" sobrenome="Raimunda"/>
-            <Membro nome="Daniela" sobrenome="Maria"/>
+        <Familia sobrenome="Pereira">
+            <Membro nome="José" />
         </Familia>
     </div>    
     , elemento)
+
+//     const elemento = document.getElementById('root')
+// ReactDOM.render(
+//     <div>
+//         <Familia>
+//             <Membro nome="José" sobrenome="Antonio"/>
+//             <Membro nome="João" sobrenome="Antonio"/>
+//         </Familia>
+//         <Familia>
+//             <Membro nome="Maria" sobrenome="Raimunda"/>
+//             <Membro nome="Daniela" sobrenome="Maria"/>
+//         </Familia>
+//     </div>    
+//     , elemento)
 
 // const elemento = document.getElementById('root')
 // ReactDOM.render(
