@@ -4,18 +4,35 @@ import ReactDOM from 'react-dom'
 // import {CompA, CompB as ComponentB} from './components/MultiplesComponents'
 //import MultElements from './components/MultiplesElements'
 //import Familia from './components/FamiliaSilva'
-import Familia from './components/Familia'
-import Membro from './components/Member'
+//import Familia from './components/Familia'
+//import Membro from './components/Member'
+//import ComponenteCFuncao from './components/ComponenteFuncao'
+import Pai from './components/Pai'
 
 const elemento = document.getElementById('root')
 ReactDOM.render(
     <div>
-        <Familia sobrenome="Pereira">
-            <Membro nome="José" />
-            <Membro nome="Maria" />
-        </Familia>
+        <Pai />
     </div>    
     , elemento)
+
+// const elemento = document.getElementById('root')
+// ReactDOM.render(
+//     <div>
+//       <ComponenteCFuncao />
+//     </div>    
+//     , elemento)
+
+
+// const elemento = document.getElementById('root')
+// ReactDOM.render(
+//     <div>
+//         <Familia sobrenome="Pereira">
+//             <Membro nome="José" />
+//             <Membro nome="Maria" />
+//         </Familia>
+//     </div>    
+//     , elemento)
 
 //     const elemento = document.getElementById('root')
 // ReactDOM.render(
